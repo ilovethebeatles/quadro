@@ -1,11 +1,4 @@
-#include <stdio.h>
-#include <math.h>
-#include <stdlib.h>
-#include "SmallerRoot.cpp"
-#include "BiggerRoot.cpp"
-#include "NumOfRoots.cpp"
-#include "PrintRoots.cpp"
-
+#include "quadratic.cpp"
 
 int main() {
   double a = 0;
