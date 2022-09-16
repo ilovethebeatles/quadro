@@ -16,9 +16,6 @@ int main() {
     if (idx == 0) {
       printf("Enter a, b, c:\n");
       scanf("%lf %lf %lf", &a, &b, &c);
-      if(a == 0) {
-        scanf("Your equation is not quadratic, try again");
-      }
     } else if (idx == 1) {
       PrintRoots(a, b, c);
     } else if (idx == 2) {
